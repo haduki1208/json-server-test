@@ -1,0 +1,6 @@
+{
+  "/api/master": "/master",
+  "/api/master/users": "/users",
+  "/api/master/companys": "/companys",
+  "/api/location/targets": "/location"
+}

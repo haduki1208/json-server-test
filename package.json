@@ -1,0 +1,19 @@
+{
+  "name": "hello-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --routes routes.json",
+    "prestart": "ts-node index.ts",
+    "build": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "json-server": "^0.15.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
